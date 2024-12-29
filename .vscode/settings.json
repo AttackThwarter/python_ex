@@ -1,3 +1,12 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./data_analysis_project",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
 }
